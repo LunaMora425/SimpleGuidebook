@@ -1,6 +1,6 @@
 /* Navigate tabs of the Guidebook */
 
-if ($('body#Pages.act-Pages').length > 0) {
+if ($('body#Pages').length > 0) {
   const guidebookContents = document.querySelectorAll('.guidebook-content');
   const guidebookLinks = document.querySelectorAll('#guidebook-menu ul li a');
 
