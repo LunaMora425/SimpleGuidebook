@@ -2,10 +2,8 @@
 
 // it is really important that your scripts are scoped to ONLY run on the spots where they're needed
 // in this case, the guidebook navigation should ONLY ever run on a jcink webpage
-// this code assumes your board wrappers are using <body id="<!-- |input_act| -->"> and so says
-// "if the body has an id of 'Pages', then run this code",
-// but if not, you should adjust accordingly
-if ($('body#Pages').length > 0) {
+// where the guidebook is present
+if ($('#guidebook-container').length > 0) {
   // get ALL of your guidebook sections with the .guidebook-content class
   const guidebookContents = document.querySelectorAll('.guidebook-content');
   // get ALL of your guidebook links
