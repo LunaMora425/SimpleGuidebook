@@ -14,7 +14,6 @@
   --guidebook-MenuLinkColor: #2a28c4;
   --guidebook-MenuLinkActiveColor: #ff5500;
 
-  --guidebook-ContentH1FontSize: 2em;
   --guidebook-ContentHeadingFontFamily: 'Roboto', sans-serif;
   --guidebook-ContentHeadingColor: #333;
 
@@ -67,7 +66,6 @@
   color: var(--guidebook-MenuHeadingColor);
   font-family: var(--guidebook-MenuHeadingFontFamily);
   text-transform: uppercase;
-  letter-spacing: 3px;
   margin-block-end: 0.5em;
   margin-block-start: 0.5em;
 }
@@ -99,13 +97,12 @@
 .guidebook-content > h5,
 .guidebook-content > h6 {
   text-transform: uppercase;
-  letter-spacing: 5px;
   color: var(--guidebook-ContentHeadingColor);
   font-family: var(--guidebook-ContentHeadingFontFamily);
 }
 
 .guidebook-content > h1 {
-  font-size: var(--guidebook-ContentH1FontSize);
+  font-size: 2em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
 }
