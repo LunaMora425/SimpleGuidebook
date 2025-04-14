@@ -2,9 +2,9 @@
   <aside id="guidebook-menu">
     <ul>
       <h4>Heading 1</h4>
-      <li><a href="#tabs-1" class="active">Tab 1</a></li>
-      <li><a href="#tabs-2">Tab 2</a></li>
-      <li><a href="#tabs-3">Tab 3</a></li>
+      <li><a href="#tabs-1" class="active">First Tab</a></li>
+      <li><a href="#tabs-2">Style Guide</a></li>
+      <li><a href="#tabs-3">Installation</a></li>
       <li><a href="#tabs-4">Tab 4</a></li>
       <li><a href="#tabs-5">Tab 5</a></li>
       <li><a href="#tabs-6">Tab 6</a></li>
@@ -30,7 +30,7 @@
       <h1>Heading 1</h1>
       <p>
         Your Content goes here! To make it easier to edit, particularly if you
-        have a ton of tabs, I reccommend using webpages for your content. That
+        have a ton of tabs, I recommend using webpages for your content. That
         way you can set up the main guidebook code once and be done with it.
       </p>
     </section>
@@ -53,8 +53,37 @@
       <p><a href="">This text is a link.</a></p>
     </section>
     <section id="tabs-3" class="guidebook-content">
-      <h2>Heading 2</h2>
-      <p>Your Content goes here!</p>
+      <h2>Installation Instructions</h2>
+      <p>If you are installing this guidebook code on a jcink site:</p>
+      <p>
+        1. Copy all the HTML into the webpage you'll be using to hold your
+        Guidebook.
+      </p>
+      <p>
+        <em>Please Note:</em> your a href tag in the menu and your section ids
+        MUST match, if you change them from tabs-1, tabs-2, etc.
+      </p>
+      <p>2. Copy all the CSS into your CSS file.</p>
+      <p>
+        It doesn't really matter where you place it in your stylesheet; while
+        it's best practice for your `:root` to be at the top, you can have
+        multiple :root declarations and CSS doesn't really care where it goes,
+        so you can keep it all together.
+      </p>
+      <p>
+        If you'd prefer to keep the CSS together with the guidebook, make sure
+        you put it at the TOP of the webpage in style tags, before the guidebook
+        HTML.
+      </p>
+      <p>
+        3. The script goes in script tags at the BOTTOM of the Board Wrappers,
+        just above the closing body tag.
+      </p>
+      <p>
+        Once again, if you'd prefer to keep the jquery script with the
+        guidebook, make sure you put it at the BOTTOM of the webpage in script
+        tags, beneath the guidebook HTML.
+      </p>
     </section>
     <section id="tabs-4" class="guidebook-content">
       <h2>Heading 2</h2>

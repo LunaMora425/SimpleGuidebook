@@ -4,8 +4,7 @@
  */
 
 // it is really important that your scripts are scoped to ONLY run on the spots where they're needed
-// in this case, the guidebook navigation should ONLY ever run on a jcink webpage
-// where the guidebook is present
+// in this case, the guidebook navigation should ONLY ever run on a jcink webpage where the guidebook is present
 if ($('#guidebook-container').length > 0) {
   // get ALL of your guidebook sections with the .guidebook-content class
   const guidebookSections = $('.guidebook-content');
